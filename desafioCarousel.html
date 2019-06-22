@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset = "UTF-8">
+
+<link href="desafioCarousel.css" rel="stylesheet" type="text/css">
+
+<title>Vitrine Linx</title>
+
+</head>
+
+<body>
+   
+  <div id = "carousel" class = "carousel">              <!-- Div contendo o carousel -->
+    <button class = "carousel__button carousel__button--left"> <!-- Botao para mudar de pagina -->
+	  <img src = "" alt = "" />          <!-- Imagem do botao Esquerdo -->
+	</button>
+	<div id = "container" class = "carousel__track-container">
+	  <ul class = "carousel__track">
+	  
+	    <li class = "carousel__slide current-slide">  <!-- Pagina de imagens -->
+		  <img id = "imagem1" class = "carousel__image" src = ""/>                <!-- Imagem da lista que eu quero mostrar -->
+		</li>
+		
+		<li class = "carousel__slide">  
+		  <img class = "carousel__image" src = ""/>
+		</li>
+		
+		<li class = "carousel__slide"> 
+		  <img class = "carousel__image" src = ""/> 
+		</li>
+		
+      </ul>
+		
+	<button class = "carousel__button carousel__button--right"> 
+	  <img src = "" alt = "" />          <!-- Imagem do botao Direito -->
+	</button> 
+    </div>
+  </div>
+  
+  <h2 id= "demo" > </h2>
+
+  <div id = "main">
+
+    <div id = "tituloPrincipal">Você visitou:</div>
+    <div id = "tituloRecomendacoes">e talvez se interesse por: </div>
+  
+    <div id = "principal">  </div>
+    <div id= "recomendacao">  </div>
+
+  </div>
+
+  <script src = "./desafioCarousel.js"> </script>
+
+  <script src = "http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X"> 
+
+  </script>
+
+
+
+
+</body>
+
+</html>
